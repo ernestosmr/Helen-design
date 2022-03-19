@@ -42,7 +42,17 @@ header{
     color: var(--turquesa);
     font-size: 1.2rem;
     font-weight: bold;
-    border-bottom: 1px solid var(--turquesa);
+}
+.header-top-list li a::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: var(--turquesa);
+    transition: width .3s;
+}
+.header-top-list li a:hover::after{
+    width: 100%;
 }
 .header-bottom-container{
     display: grid;
