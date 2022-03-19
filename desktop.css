@@ -59,16 +59,12 @@ main{
 }
 .main-section-container article p{
     font-size: 2rem;
+    line-height: 2.6rem;
 }
 .main-section-container button{
     width: 144px;
     height: 42px;
     font-size: 1.8rem;
-    position: absolute;
-    bottom: 0;
-}
-.aside-first-container{
-    width: 90%;
 }
 .aside-first-title p{
     font-size: 2rem;
