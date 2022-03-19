@@ -43,6 +43,7 @@ main{
 .aside-second-container {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .aside-second-container div{
     width: 90%;
