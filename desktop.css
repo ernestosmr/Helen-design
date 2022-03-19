@@ -1,0 +1,84 @@
+.header-top-image{
+    background-image: url(./assets/image-desktop.jpg);
+    height: 260px;
+}
+.aside-second-container{
+    display: initial;
+}
+.header-top-nav{
+    padding: 30px 50px;
+}
+.header-top-list li{
+    margin-left: 40px;
+}
+.header-top-list li a{
+    font-size: 2.4rem;
+}
+.header-bottom-nav a{
+    font-size: 2rem;
+}
+.header-bottom-right span{
+    width: 1.2rem;
+    height: 2rem;
+}
+.header-bottom-right h1{
+    font-size: 4.2rem;
+    line-height: 5rem;
+    width: fit-content;
+    border-bottom: 1px solid black;
+}
+.header-bottom-left{
+    padding-left: 40px;
+}
+.header-bottom-left div{
+    width: 210px;
+    height: 200px;
+}
+.header-bottom-left p{
+    font-size: 2rem;
+}
+main{
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.aside-second-container {
+    display: flex;
+    justify-content: center;
+}
+.aside-second-container div{
+    width: 90%;
+}
+.aside-second-container img{
+    width: 100%;
+    border-radius: 20px;
+}
+.main-section-container{
+    position: relative;
+}
+.main-section-container h2{
+    font-size: 3rem;
+}
+.main-section-container article p{
+    font-size: 2rem;
+}
+.main-section-container button{
+    width: 144px;
+    height: 42px;
+    font-size: 1.8rem;
+    position: absolute;
+    bottom: 0;
+}
+.aside-first-container{
+    width: 90%;
+}
+.aside-first-title p{
+    font-size: 2rem;
+}
+.aside-first-articles-container article{
+    height: auto;
+}
+.aside-first-articles-container article h3{
+    font-size: 1.4rem;
+}
+.aside-first-articles-container article img{
+    min-width: 125px;
+}
